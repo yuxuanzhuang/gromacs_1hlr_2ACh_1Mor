@@ -1,3 +1,5 @@
+# READ: https://www.notion.so/yzhuang94/Job-submission-in-TCBLAB-cluster-81773d6fe5e2492fa9c6b48aae5963ec?pvs=4
+
 # energy minimization
 gmx grompp -f mdp/em.mdp -o em.tpr -c start.pdb -r start.pdb -p topol.top -maxwarn 2
 
