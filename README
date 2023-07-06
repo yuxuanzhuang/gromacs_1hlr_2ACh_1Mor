@@ -1,0 +1,32 @@
+# energy minimization
+gmx grompp -f mdp/em.mdp -o em.tpr -c start.pdb -r start.pdb -p topol.top -maxwarn 2
+
+# run energy minimization
+gmx mdrun -v -deffnm em
+
+# equilibration with C-alpha and ligand restrained for 10 ns
+gmx grompp -f mdp/ca.mdp -o ca.tpr -c em.gro -r em.gro -p topol.top -maxwarn 2
+
+# run equilibration
+gmx mdrun -v -deffnm ca
+
+# production
+## create four replicates
+mkdir PRODUCTION
+mkdir PRODUCTION/rep{1..4}
+
+# generate four different seeds
+for rep in {1..4}; do
+    gmx grompp -f mdp/md.mdp -o PRODUCTION/rep${rep}/md.tpr -c ca.gro -r ca.gro -p topol.top -maxwarn 2;
+done
+
+# upload the folder to the cluster
+rsync -ru --progress ../gromacs_1hlr_2ACh_1Mor username@login.tcblab.org:/path/to/direction
+
+# ssh to the cluster and submit the jobs
+# ssh username@login.tcblab.org
+# cd /path/to/direction
+# sbatch jobscript.sh
+
+# retrieve the results
+#rsync -ru --progress username@login.tcblab.org:/path/to/direction /path/to/direction

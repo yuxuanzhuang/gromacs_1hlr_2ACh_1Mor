@@ -8,7 +8,7 @@ nstfout                 = 0
 nstcalcenergy           = 100
 nstenergy               = 20000
 nstlog                  = 20000
-nstxout-compressed       = 20000
+nstxout-compressed       = 25000
 compressed-x-precision   = 1000
 ;
 cutoff-scheme           = Verlet

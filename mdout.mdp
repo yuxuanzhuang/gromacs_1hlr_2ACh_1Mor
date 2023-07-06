@@ -2,7 +2,7 @@
 ;	File 'mdout.mdp' was generated
 ;	By user: yzhuang (10126)
 ;	On host: mbs21
-;	At date: Thu Jul  6 14:39:12 2023
+;	At date: Thu Jul  6 14:48:07 2023
 ;
 ;	Created by:
 ;	                      :-) GROMACS - gmx grompp, 2023 (-:
@@ -11,7 +11,7 @@
 ;	Data prefix:  /opt/tcbsys/gromacs/2023/gmx/AVX2_256
 ;	Working dir:  /nethome/yzhuang/git_repo/gromacs_1hlr_2ACh_1Mor
 ;	Command line:
-;	  gmx grompp -f mdp/md.mdp -o test.tpr -c start.pdb -r start.pdb -p topol.top -maxwarn 2
+;	  gmx grompp -f mdp/md.mdp -o PRODUCTION/rep4/md.tpr -c start.pdb -r start.pdb -p topol.top -maxwarn 2
 
 ; VARIOUS PREPROCESSING OPTIONS
 ; Preprocessor information: use cpp syntax.
@@ -69,7 +69,7 @@ nstlog                   = 20000
 nstcalcenergy            = 100
 nstenergy                = 20000
 ; Output frequency and precision for .xtc file
-nstxout-compressed       = 20000
+nstxout-compressed       = 25000
 compressed-x-precision   = 1000
 ; This selects the subset of atoms for the compressed
 ; trajectory file. You can select multiple groups. By
@@ -171,7 +171,7 @@ annealing-temp           =
 ; GENERATE VELOCITIES FOR STARTUP RUN
 gen-vel                  = no
 gen-temp                 = 300
-gen-seed                 = -17375345
+gen-seed                 = -549553729
 
 ; OPTIONS FOR BONDS    
 constraints              = h-bonds
