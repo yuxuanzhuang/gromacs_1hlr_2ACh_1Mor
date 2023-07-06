@@ -254,3 +254,8 @@ ACHO	     3
    20     1    POSRES_FC_BB    POSRES_FC_BB    POSRES_FC_BB   
    21     1    POSRES_FC_BB    POSRES_FC_BB    POSRES_FC_BB   
 #endif
+
+#ifdef POSRES_HET
+[ position_restraints ]
+   1   1   1000  1000  1000
+   19   1   1000  1000  1000

@@ -34717,3 +34717,20 @@ PROA	     3
  3487     1    POSRES_FC_SC    POSRES_FC_SC    POSRES_FC_SC   
  3488     1    POSRES_FC_SC    POSRES_FC_SC    POSRES_FC_SC   
 #endif
+; Include Position restraint file
+#ifdef POSRES_HEAVY
+#include "restraints/posre_proa.itp"
+#endif
+; Include Position restraint file
+#ifdef POSRES_BACKBONE
+#include "restraints/posre_backbone_proa.itp" 
+#endif
+; Include Position restraint file
+#ifdef POSRES_CA
+#include "restraints/posre_ca_proa.itp" 
+#endif
+; Include anchor restraint file
+#ifdef POSRES_ANCHOR
+[ position_restraints ]
+ 3486   1   1000 1000 1000
+#endif

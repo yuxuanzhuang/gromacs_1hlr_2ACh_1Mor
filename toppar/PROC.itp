@@ -34429,3 +34429,21 @@ PROC	     3
  3461     1    POSRES_FC_SC    POSRES_FC_SC    POSRES_FC_SC   
  3462     1    POSRES_FC_SC    POSRES_FC_SC    POSRES_FC_SC   
 #endif
+; Include Position restraint file
+#ifdef POSRES_HEAVY
+#include "restraints/posre_proc.itp"
+#endif
+; Include Position restraint file
+#ifdef POSRES_BACKBONE
+#include "restraints/posre_backbone_proc.itp" 
+#endif
+; Include Position restraint file
+#ifdef POSRES_CA
+#include "restraints/posre_ca_proc.itp" 
+#endif
+; Include anchor restraint file
+#ifdef POSRES_ANCHOR
+[ position_restraints ]
+3460   1   1000 1000 1000
+
+#endif

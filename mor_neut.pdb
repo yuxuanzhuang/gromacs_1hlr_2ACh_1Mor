@@ -1,0 +1,33 @@
+CRYST1    0.000    0.000    0.000  90.00  90.00  90.00 P 1           1
+ATOM      1  S   MOR X   1      53.243  24.565  49.401  1.00  0.00      HETC S
+ATOM      2  N1  MOR X   1      50.497  25.178  54.784  1.00  0.00      HETC N
+ATOM      3  N2  MOR X   1      51.557  23.200  53.928  1.00  0.00      HETC N
+ATOM      4  C1  MOR X   1      49.930  24.496  55.944  1.00  0.00      HETC C
+ATOM      5  C2  MOR X   1      49.767  23.018  55.626  1.00  0.00      HETC C
+ATOM      6  C3  MOR X   1      51.084  22.466  55.106  1.00  0.00      HETC C
+ATOM      7  C4  MOR X   1      51.258  24.467  53.848  1.00  0.00      HETC C
+ATOM      8  C5  MOR X   1      50.296  26.620  54.726  1.00  0.00      HETC C
+ATOM      9  C6  MOR X   1      51.803  25.132  52.631  1.00  0.00      HETC C
+ATOM     10  C7  MOR X   1      52.913  24.714  52.070  1.00  0.00      HETC C
+ATOM     11  C8  MOR X   1      53.496  25.343  50.872  1.00  0.00      HETC C
+ATOM     12  C9  MOR X   1      54.208  26.477  50.820  1.00  0.00      HETC C
+ATOM     13  C10 MOR X   1      54.593  26.751  49.476  1.00  0.00      HETC C
+ATOM     14  C11 MOR X   1      54.571  27.351  51.962  1.00  0.00      HETC C
+ATOM     15  C12 MOR X   1      54.133  25.791  48.601  1.00  0.00      HETC C
+ATOM     16  H1  MOR X   1      48.939  24.934  56.197  1.00  0.00      HETC H
+ATOM     17  H2  MOR X   1      50.625  24.652  56.796  1.00  0.00      HETC H
+ATOM     18  H3  MOR X   1      48.981  22.882  54.848  1.00  0.00      HETC H
+ATOM     19  H4  MOR X   1      49.444  22.445  56.522  1.00  0.00      HETC H
+ATOM     20  H5  MOR X   1      51.854  22.522  55.897  1.00  0.00      HETC H
+ATOM     21  H6  MOR X   1      50.965  21.398  54.815  1.00  0.00      HETC H
+ATOM     22  H7  MOR X   1      50.068  27.035  55.734  1.00  0.00      HETC H
+ATOM     23  H8  MOR X   1      49.449  26.885  54.055  1.00  0.00      HETC H
+ATOM     24  H9  MOR X   1      51.201  27.152  54.361  1.00  0.00      HETC H
+ATOM     25  H10 MOR X   1      51.290  25.999  52.193  1.00  0.00      HETC H
+ATOM     26  H11 MOR X   1      53.436  23.834  52.482  1.00  0.00      HETC H
+ATOM     27  H12 MOR X   1      55.112  27.642  49.181  1.00  0.00      HETC H
+ATOM     28  H13 MOR X   1      54.676  26.758  52.894  1.00  0.00      HETC H
+ATOM     29  H14 MOR X   1      53.771  28.107  52.115  1.00  0.00      HETC H
+ATOM     30  H15 MOR X   1      55.525  27.886  51.767  1.00  0.00      HETC H
+ATOM     31  H16 MOR X   1      54.139  25.812  47.516  1.00  0.00      HETC H
+END

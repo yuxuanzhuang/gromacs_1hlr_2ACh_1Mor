@@ -8,7 +8,7 @@
 ;;
 
 ; Include forcefield parameters
-#include "toppar/forcefield.itp"
+#include "toppar/charmm36_wyf.ff/forcefield.itp"
 #include "toppar/PROA.itp"
 #include "toppar/PROB.itp"
 #include "toppar/PROC.itp"
@@ -33,6 +33,6 @@ PROD  	           1
 PROE  	           1
 ACHO  	           2
 MOR   	           1
-SOD   	         121
+SOD   	         120
 CLA   	          83
 TIP3  	       29759
